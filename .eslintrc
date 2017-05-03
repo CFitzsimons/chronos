@@ -1,6 +1,11 @@
 {
     "extends": "airbnb-base",
     "installedESLint": true,
+    "rules": {
+      "import/no-dynamic-require": "off",
+      "global-require": "off",
+      "no-restricted-syntax": "off"
+    },
     "plugins": [
         "import"
     ]
